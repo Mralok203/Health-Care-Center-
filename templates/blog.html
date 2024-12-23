@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog - Health Care Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <style>
+    /* Custom Styling */
+    .blog-post {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+    }
+    .blog-post-title {
+      font-size: 2rem;
+      color: #333;
+      font-weight: bold;
+    }
+    .blog-post-meta {
+      color: #777;
+      font-size: 0.9rem;
+    }
+    .blog-post-excerpt {
+      font-size: 1rem;
+      color: #555;
+    }
+    .blog-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .sidebar {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .sidebar h3 {
+      font-size: 1.5rem;
+      color: #333;
+    }
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .sidebar ul li {
+      margin-bottom: 10px;
+    }
+    .sidebar ul li a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .sidebar ul li a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Health Center</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/developers">Developers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/content">Content</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Content -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Main Blog Posts -->
+      <div class="col-lg-8">
+        <div class="blog-post">
+          <h2 class="blog-post-title">How to Stay Healthy During Winter</h2>
+          <p class="blog-post-meta">Posted on December 21, 2024 by Admin</p>
+          <img src="https://via.placeholder.com/800x400" alt="Winter Health Tips" class="blog-image">
+          <p class="blog-post-excerpt">Winter brings challenges to our health, but with the right precautions, we can stay healthy. In this blog, we'll share some essential tips to help you stay safe and healthy during the colder months...</p>
+          <a href="/blog/how-to-stay-healthy-during-winter" class="btn btn-primary">Read More</a>
+        </div>
+
+        <div class="blog-post">
+          <h2 class="blog-post-title">The Importance of Regular Exercise for Seniors</h2>
+          <p class="blog-post-meta">Posted on December 19, 2024 by Admin</p>
+          <img src="https://via.placeholder.com/800x400" alt="Exercise for Seniors" class="blog-image">
+          <p class="blog-post-excerpt">Regular exercise can significantly improve the quality of life for seniors. In this post, we explain why staying active is so important for seniors and provide some easy exercises to get started...</p>
+          <a href="/blog/exercise-for-seniors" class="btn btn-primary">Read More</a>
+        </div>
+
+        <div class="blog-post">
+          <h2 class="blog-post-title">How to Boost Your Immune System Naturally</h2>
+          <p class="blog-post-meta">Posted on December 15, 2024 by Admin</p>
+          <img src="https://via.placeholder.com/800x400" alt="Boost Immune System" class="blog-image">
+          <p class="blog-post-excerpt">Maintaining a healthy immune system is crucial, especially during cold and flu season. Here are some natural ways to boost your immunity and keep your body strong...</p>
+          <a href="/blog/boost-immune-system" class="btn btn-primary">Read More</a>
+        </div>
+
+        <!-- Pagination -->
+        <nav>
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <span class="page-link">Previous</span>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+        <div class="sidebar">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Health Tips</a></li>
+            <li><a href="#">Nutrition</a></li>
+            <li><a href="#">Exercise</a></li>
+            <li><a href="#">Mental Health</a></li>
+            <li><a href="#">Wellness</a></li>
+          </ul>
+
+          <hr>
+
+          <h3>Recent Posts</h3>
+          <ul>
+            <li><a href="/blog/how-to-stay-healthy-during-winter">How to Stay Healthy During Winter</a></li>
+            <li><a href="/blog/exercise-for-seniors">The Importance of Regular Exercise for Seniors</a></li>
+            <li><a href="/blog/boost-immune-system">How to Boost Your Immune System Naturally</a></li>
+          </ul>
+
+          <hr>
+
+          <h3>Follow Us</h3>
+          <ul class="list-unstyled">
+            <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Health Center. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
